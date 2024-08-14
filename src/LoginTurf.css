@@ -1,0 +1,57 @@
+.bodyhel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-left: 500px;
+  background: #f6f5f7;
+}
+
+.containerfan {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.form-container {
+  padding: 50px;
+}
+
+.input-fieldpas {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+}
+
+.input-fieldpas:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+.submit-buttonpap {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: #009688;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-buttonpap:disabled {
+  background-color: #aaa;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

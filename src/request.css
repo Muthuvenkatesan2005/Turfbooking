@@ -1,0 +1,133 @@
+.manage-booking-requests {
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+}
+
+.manage-booking-requests h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-button {
+  padding: 8px 15px;
+  margin: 0 5px;
+  border: none;
+  /* border-radius: 20px; */
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+}
+
+.filter-button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.filter-button:not(.active) {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.filter-button:hover:not(.active) {
+  background-color: #d0d0d0;
+}
+
+.requests-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.requests-table th,
+.requests-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.requests-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.requests-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.requests-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.requests-table button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.8em;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+}
+
+.requests-table button:hover {
+  opacity: 0.8;
+}
+
+.requests-table .approve-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.requests-table .deny-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.requests-table .view-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.requests-table .approve-button:hover {
+  background-color: #45a049;
+}
+
+.requests-table .deny-button:hover {
+  background-color: #e53935;
+}
+
+.requests-table .view-button:hover {
+  background-color: #1e88e5;
+}
+
+@media (max-width: 768px) {
+  .requests-table {
+    font-size: 0.9em;
+  }
+
+  .filter-button {
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
+
+  .requests-table th, .requests-table td {
+    padding: 10px;
+  }
+}

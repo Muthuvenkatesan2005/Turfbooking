@@ -1,0 +1,15 @@
+/* src/Booking.css */
+
+.container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  
+  .slot-button {
+    margin: 8px 0;
+  }
+  
+  .confirm-button {
+    margin-top: 32px;
+  }
+  

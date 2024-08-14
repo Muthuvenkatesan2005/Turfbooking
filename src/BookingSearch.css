@@ -1,0 +1,109 @@
+/* Container styles */
+.search-container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.search-container:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Header styles */
+.search-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Form styles */
+.search-form .form-group {
+    margin-bottom: 20px;
+}
+
+.search-form .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.search-form .form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.search-form .form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styles */
+.search-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+.search-form button:active {
+    background-color: #003f7f;
+    transform: scale(0.98);
+}
+
+/* Results styles */
+.results {
+    margin-top: 30px;
+}
+
+.result-item {
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.result-item:hover {
+    border-color: #007bff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Result item header styles */
+.result-item h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Result item paragraph styles */
+.result-item p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 16px;
+}
